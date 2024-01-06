@@ -1,0 +1,16 @@
+input {
+    background-color: #eee;
+}
+
+input:focus {
+    outline: 1px solid #00b2ff;
+}
+
+.login {
+    width: 250px;
+}
+
+.ul-shop {
+    max-height: 500px;
+    overflow-y: auto;
+}

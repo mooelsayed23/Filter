@@ -1,0 +1,10 @@
+.sidbar-contaner {
+    font-size: 13px;
+    text-wrap: nowrap;
+    width: 185px !important;
+}
+
+input[type="radio"]:checked {
+    background: #0dcaf0;
+    border: #0dcaf0;
+}
