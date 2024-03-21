@@ -26,7 +26,7 @@ const Links = () => {
     </li>
   ));
   return (
-    <div className=" w-100 p-4">
+    <div className=" w-100 py-4">
       <h3 className="py-2">Multiple choice</h3>
       <ul className="d-flex list-unstyled ">
         {companyNames.length > 0 && (

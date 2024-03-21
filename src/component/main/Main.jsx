@@ -34,16 +34,16 @@ const Main = () => {
   });
 
   return (
-    <div>
-      <div className="w-100">
+    <div className="w-10/12 mx-auto">
+      <div >
         <Links />
       </div>
-      <div>
+      <div className="columns-4 ">
         {filteredData.length === 0 ? (
           <h4 className="p-3"> لا نتائج</h4>
         ) : (
           <>
-            <div className="d-flex flex-wrap ">
+            <div className="d-flex flex-wrap">
               {filteredData.map((el) => (
                 <Card
                   key={el.id}

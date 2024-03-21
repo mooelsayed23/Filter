@@ -1,16 +1,34 @@
+.nav-contener {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(23 141 255) 0%,
+    rgb(43 159 251) 100%
+  );
+}
+.logo-link {
+  background: #ffffff;
+  border-radius: 115px 200px 107px 22px;
+  -webkit-border-radius: 115px 200px 107px 22px;
+  -moz-border-radius: 115px 200px 107px 22px;
+  border: 6px solid #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: larger;
+}
 input {
-    background-color: #eee;
+  background-color: #eee;
 }
 
 input:focus {
-    outline: 1px solid #00b2ff;
+  outline: 1px solid #00b2ff;
 }
 
 .login {
-    width: 250px;
+  width: 250px;
 }
 
 .ul-shop {
-    max-height: 500px;
-    overflow-y: auto;
+  max-height: 500px;
+  overflow-y: auto;
 }

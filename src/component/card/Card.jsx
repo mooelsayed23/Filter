@@ -18,18 +18,18 @@ const Card = ({ img, title, rev, oldprice, price, company, id }) => {
   };
 
   return (
-    <div className="card-container">
-      <div className="card">
+    <div className="card-container grow w-full">
+      <div className="card mx-0">
         <img src={img} alt={title} className="card-img" />
         <div className="card-details">
           <h5 className="card-title">{title}</h5>
           <p className="text-info">{company}</p>
-          <section>
+          <section className="flex">
             <FaStar className="card-star" />
             <FaStar className="card-star" />
             <FaStar className="card-star" />
-            <FaStar className="card-star" /> 4
-            <div className="reviews">{rev}</div>
+            <FaStar className="card-star" /> 
+            <div className="reviews ms-2">{rev}</div>
           </section>
           <section className="card-price">
             <div>

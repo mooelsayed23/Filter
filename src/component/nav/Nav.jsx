@@ -30,11 +30,11 @@ const Nav = () => {
   let shopping = itemId.length > 0 ? true : false;
   return (
     <>
-      <div className="nav-contener w-100  border-bottom">
-        <div className="  d-flex justify-content-between align-items-center px-5 m-0  ">
+      <div className="nav-contener   border-bottom py-2.5">
+        <div className="w-10/12 mx-auto  d-flex justify-content-between align-items-center  m-0 text-2xl ">
           <div className="text-info fs-3">
-            <a href="/" className="nav-link ">
-              Sorting
+            <a href="/" className="logo-link ">
+              Souq
             </a>
           </div>
           <div className="w-50">
