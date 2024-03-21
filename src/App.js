@@ -8,7 +8,7 @@ function App() {
       <Nav />
       {/* <div className="d-flex "> */}
       {/* <Sidbar /> */}
-      <Main />
+      {/* <Main /> */}
       {/* </div> */}
     </>
   );

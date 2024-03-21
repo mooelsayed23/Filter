@@ -30,10 +30,10 @@ const Nav = () => {
   let shopping = itemId.length > 0 ? true : false;
   return (
     <>
-      <div className="nav-contener   border-bottom py-2.5">
-        <div className="w-10/12 mx-auto  d-flex justify-content-between align-items-center  m-0 text-2xl ">
+      <div className="nav-contener   border-bottom py-2.5 px-1">
+        <div className="sm:w-10/12 mx-auto  d-flex justify-content-between align-items-center  m-0 text-2xl ">
           <div className="text-info fs-3">
-            <a href="/" className="logo-link ">
+            <a href="/" className="logo-link sm:text-3xl">
               Souq
             </a>
           </div>
@@ -51,7 +51,7 @@ const Nav = () => {
           <div className="d-flex justify-content-center align-items-center ">
             <div className="dropdown d-flex justify-content-center">
               <button
-                className="btn fs-3 shopping ps-3 py-0 "
+                className=" fs-3 shopping sm:ps-3 py-0 "
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -60,7 +60,7 @@ const Nav = () => {
                 {shopping ? (
                   <TfiShoppingCartFull className="text-infouser" />
                 ) : (
-                  <TfiShoppingCart />
+                  <TfiShoppingCart className="ms-3"/>
                 )}
               </button>
               <ul className="dropdown-menu p-1  ul-shop">
@@ -84,7 +84,7 @@ const Nav = () => {
 
             <div className="dropdown d-flex justify-content-center items-center">
               <button
-                className="btn fs-3 ps-3 py-0"
+                className=" fs-3 ps-3 py-0"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
