@@ -48,7 +48,7 @@ const Nav = () => {
               value={searchQuery}
             />
           </div>
-          <div className="d-flex justify-content-center align-items-end ">
+          <div className="d-flex justify-content-center align-items-center ">
             <div className="dropdown d-flex justify-content-center">
               <button
                 className="btn fs-3 shopping ps-3 py-0 "
@@ -58,7 +58,7 @@ const Nav = () => {
                 data-bs-auto-close="outside"
               >
                 {shopping ? (
-                  <TfiShoppingCartFull className="text-info" />
+                  <TfiShoppingCartFull className="text-infouser" />
                 ) : (
                   <TfiShoppingCart />
                 )}
@@ -82,7 +82,7 @@ const Nav = () => {
               </ul>
             </div>
 
-            <div className="dropdown d-flex justify-content-center">
+            <div className="dropdown d-flex justify-content-center items-center">
               <button
                 className="btn fs-3 ps-3 py-0"
                 type="button"
@@ -90,7 +90,7 @@ const Nav = () => {
                 aria-expanded="false"
                 data-bs-auto-close="outside"
               >
-                <FaRegUserCircle className=" text-info" />
+                <FaRegUserCircle className=" text-infouser fs-1 " />
               </button>
               <form className="dropdown-menu p-4 mt-1 login">
                 <div className="mb-3">

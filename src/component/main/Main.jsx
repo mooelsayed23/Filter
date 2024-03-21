@@ -38,7 +38,7 @@ const Main = () => {
       <div >
         <Links />
       </div>
-      <div className="columns-4 ">
+      <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 ">
         {filteredData.length === 0 ? (
           <h4 className="p-3"> لا نتائج</h4>
         ) : (

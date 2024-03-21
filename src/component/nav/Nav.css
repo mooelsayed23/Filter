@@ -32,3 +32,6 @@ input:focus {
   max-height: 500px;
   overflow-y: auto;
 }
+.text-infouser{
+    color: aliceblue !important;
+}
