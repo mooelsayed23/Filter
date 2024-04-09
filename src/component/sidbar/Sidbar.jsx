@@ -28,7 +28,8 @@ const Sidbar = () => {
   };
 
   return (
-    <div className="border border-top-0 pt-3 pe-5 ps-4 sidbar-contaner">
+    <>
+    <div className="border border-top-0 border-bottom-0  pt-3 pe-5 ps-4 sidbar-contaner fixed" >
       <h5>Category</h5>
       <div className="form-check my-2">
         <div>
@@ -84,6 +85,7 @@ const Sidbar = () => {
         {generateItems("color")}
       </div>
     </div>
+    </>
   );
 };
 

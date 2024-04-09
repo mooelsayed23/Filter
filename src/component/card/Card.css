@@ -1,7 +1,7 @@
 .card-container {
     display: flex;
     flex-wrap: nowrap;
-    width: 214px
+    min-width: 214px
 }
 
 .card {
@@ -40,5 +40,5 @@
 }
 
 .bag-icons {
-    color: #535353;
+    color: #4a6881;
 }

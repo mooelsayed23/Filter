@@ -18,7 +18,7 @@ const Card = ({ img, title, rev, oldprice, price, company, id }) => {
   };
 
   return (
-    <div className="card-container grow w-full">
+    <div className="card-container grow w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5">
       <div className="card mx-0">
         <img src={img} alt={title} className="card-img" />
         <div className="card-details">
@@ -41,13 +41,12 @@ const Card = ({ img, title, rev, oldprice, price, company, id }) => {
             <div id={id} className="btn p-0 m-0">
               {cartSelectId.includes(id) ? (
                 <div onClick={() => hRemoveCart(id)}>
-                  <TfiShoppingCartFull className="bag-icons text-info" />
+                  <TfiShoppingCartFull className="bag-icons text-info fs-3 mx-2" />
                 </div>
               ) : (
                 <div onClick={() => hAddCart(id, img, title, price)}>
                   <TfiShoppingCart
-                    className="bag-icons "
-                    style={{ transform: "rotateY(180deg)" }}
+                    className="bag-icons fs-3 mx-2"
                   />
                 </div>
               )}
