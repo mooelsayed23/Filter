@@ -34,7 +34,7 @@ const Main = () => {
   });
 
   return (
-    <main className="px-2 w-10/12">
+    <main className="px-5">
       <div >
         <Links />
       </div>

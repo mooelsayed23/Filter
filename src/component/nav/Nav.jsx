@@ -63,10 +63,10 @@ const Nav = () => {
                   <TfiShoppingCart className="ms-3"/>
                 )}
               </button>
-              <ul className="dropdown-menu p-1  ul-shop">
+              <ul className="dropdown-menu p-3 mt-y ul-shop">
                 {shopping ? (
                   data.map((e) => (
-                    <div className="" key={e.id}>
+                    
                       <ShoppingCart
                         img={e.img}
                         title={e.title}
@@ -74,11 +74,16 @@ const Nav = () => {
                         id={e.id}
                         key={e.id}
                       />
-                    </div>
+                    
                   ))
-                ) : (
-                  <div>no catgerous</div>
+                  
+                )  : (
+                  <div className="p-5 text-nowrap font-semibold">no catgerous</div>
                 )}
+                {shopping ? 
+                <li className="w-11/12 mx-auto p-3 bg-slate-600 text-center text-white font-semibold rounded-xl cursor-pointer">BUY</li>
+                
+                : ""}
               </ul>
             </div>
 
