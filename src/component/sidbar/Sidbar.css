@@ -1,7 +1,7 @@
 .sidbar-contaner {
-    font-size: 13px;
     text-wrap: nowrap;
-    width: 185px !important;
+    width: 220px !important;
+    background: linear-gradient(to right, #269afc, #40abff);
 }
 
 input[type="radio"]:checked {
