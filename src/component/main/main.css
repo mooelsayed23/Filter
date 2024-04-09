@@ -1,4 +1,4 @@
 main{
-    width: calc(100% - 185px);
-    margin-left: 185px;
+    width: calc(100% - 220px) !important;
+    margin-left: 220px !important;
 }
