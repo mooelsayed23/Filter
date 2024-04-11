@@ -2,3 +2,9 @@ main{
     width: calc(100% - 220px) !important;
     margin-left: 220px !important;
 }
+@media (max-width: 1023.98px) {
+    main{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+}

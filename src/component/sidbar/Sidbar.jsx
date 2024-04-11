@@ -29,7 +29,7 @@ const Sidbar = () => {
 
   return (
     <>
-      <div className="border-r sidbar-contaner fixed h-screen overflow-y-auto pb-5 text-sm">
+      <div className="border-r sidbar-contaner fixed h-screen overflow-y-auto pb-5 text-sm hidden lg:block">
         <div className="bg-white w-4/5 mx-auto my-4 rounded-tr-xl p-3.5">
           <h5>Category</h5>
           <div className="form-check my-2">
