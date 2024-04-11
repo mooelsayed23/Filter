@@ -30,7 +30,7 @@ const Nav = () => {
   let shopping = itemId.length > 0 ? true : false;
   return (
     <>
-      <div className="nav-contener   border-bottom py-2.5 px-1 sticky top-0 z-50 ">
+      <div className="nav-contener   border-bottom py-2.5 px-3 sticky top-0 z-50 ">
         <div className="sm:w-11/12 mx-auto  d-flex justify-content-between align-items-center  m-0 text-2xl ">
           <div className="text-info fs-3">
             <a href="/" className="logo-link sm:text-3xl">
